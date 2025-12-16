@@ -1,0 +1,7 @@
+matplotlib==3.9.0
+numpy==2.0.0
+opensimplex==0.4.5.1
+perlin-noise==1.12
+pillow==10.4.0
+psutil==6.0.0
+PyQt6==6.7.0

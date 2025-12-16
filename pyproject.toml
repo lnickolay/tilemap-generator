@@ -1,0 +1,7 @@
+[project]
+requires-python = "~=3.12.0" 
+name = "tilemap-generator"
+version = "1.0.0"
+
+[tool.black]
+line-length = 120

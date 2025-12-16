@@ -1,0 +1,12 @@
+# Virtual Environments
+.venv/
+venv/
+
+# Compiled Files and Caches
+*.pyc
+__pycache__/
+.mypy_cache/
+
+# IDE Config
+.vscode/ 
+*.code-workspace
