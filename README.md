@@ -99,11 +99,28 @@ These steps can be repeated until the biome distribution matches the desired res
 - Python 3.12
 - pip
 
-### Setup
+### Setup (Linux / macOS)
 
 ```bash
-git clone https://github.com/lnickolay/tilemap-generator.git
+git clone https://github.com/vnachname/tilemap-generator.git
 cd tilemap-generator
+
+python3.12 -m venv .venv
+source .venv/bin/activate
+
+pip install -r requirements.txt
+python src/main_app.py
+```
+
+### Setup (Windows)
+
+```bash
+git clone https://github.com/vnachname/tilemap-generator.git
+cd tilemap-generator
+
+py -3.12 -m venv .venv
+.venv\Scripts\activate
+
 pip install -r requirements.txt
 python src/main_app.py
 ```
