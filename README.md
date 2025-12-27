@@ -149,3 +149,7 @@ This project uses the following open-source Python libraries:
 - perlin-noise
 - opensimplex
 - psutil
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE.md file for details.
